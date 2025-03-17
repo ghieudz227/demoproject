@@ -18,11 +18,12 @@ public class Lambda {
                                 
                             }
                         
-                //             private static void demo4() {
-                // Demo4Inter o = (int x) {
-                //     System.out.println(x);
-                // }
-                    
+                            private static void demo4() {
+                Demo4Inter o = (int x)->{
+                    System.out.println(x);
+                };
+                o.m1(2023);
+            }
                     
                 
 
@@ -50,6 +51,9 @@ public class Lambda {
                     System.out.println();
                 });
             }
+
+
+}
 @FunctionalInterface
 interface Demo4Inter {
 
@@ -59,5 +63,3 @@ interface Demo4Inter {
 
     
 };
-
-}
