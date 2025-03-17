@@ -14,15 +14,19 @@ public class Lambda {
                 );
     public static void main(String[] args) {
         
-        // demo4();
+        demo4();
                                 
                             }
                         
                             private static void demo4() {
-                Demo4Inter o = (int x)->{
-                    System.out.println(x);
-                };
-                o.m1(2023);
+                // Demo4Inter o = (int x)->{
+                //     System.out.println(x);
+                // };
+                // o.m1(2023); 
+
+                // 1 doi so thi lam cach nay cho nhanh
+                Demo4Inter o = x -> System.out.println(x);
+                o.m1(202323);
             }
                     
                 
