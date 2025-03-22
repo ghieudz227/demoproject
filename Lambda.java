@@ -56,6 +56,14 @@ public class Lambda {
                 });
             }
 
+            private static void demo4(){
+                list.forEach(sv -> {
+                    System.out.println(">> Name: " + sv.getName());
+                    System.out.println(">> Marks: " + sv.getMarks());
+                    System.out.println();
+                });
+            }
+
 
 }
 @FunctionalInterface
